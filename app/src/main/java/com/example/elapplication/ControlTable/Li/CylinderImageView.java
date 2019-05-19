@@ -1,4 +1,4 @@
-package com.example.elapplication;
+package com.example.elapplication.ControlTable.Li;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,6 +10,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.elapplication.R;
 
 public class CylinderImageView extends View {
     //用于裁剪的原始图片资源

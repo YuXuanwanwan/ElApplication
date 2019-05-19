@@ -7,15 +7,14 @@
     <FrameLayout
         android:layout_width="380dp"
         android:layout_height="700dp"
-        android:background="@drawable/rounded_corners"
-        android:orientation="vertical">
+        android:background="@drawable/rounded_corners">
 
         <ImageButton
             android:layout_marginLeft="10dp"
             android:layout_gravity="left|top"
             android:id="@+id/btn_return"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
             android:background="@drawable/btn_return" />
 
     <TextView

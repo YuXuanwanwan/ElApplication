@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".m78Activity">
+    tools:context=".ControlTable.Li.m78Activity">
 
 
     <FrameLayout
         android:id="@+id/Container_ControlTable"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.example.elapplication.CylinderImageView2
+        <com.example.elapplication.ControlTable.Li.CylinderImageView2
             android:id="@+id/cylinder_universe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

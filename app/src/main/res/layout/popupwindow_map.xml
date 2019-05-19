@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <FrameLayout
+        android:layout_width="380dp"
+        android:layout_height="700dp"
+        android:background="@drawable/rounded_corners"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|top"
+            android:id="@+id/btn_return"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_return" />
+
+    <TextView
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/pop_map"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="大地图"
+        android:textSize="50dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="初始星系"
+            android:textColor="#0288D1"
+            android:textSize="40dp"
+             />
+
+        <ImageButton
+            android:id="@+id/start_universe"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/universe_round"/>
+
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="M78星云"
+            android:textSize="40dp"
+            android:textColor="#0288D1"
+            android:layout_marginTop="250dp" />
+        <ImageButton
+            android:id="@+id/universe_m78"
+            android:layout_marginTop="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/universe_m78"/>
+
+    </FrameLayout>
+</RelativeLayout>

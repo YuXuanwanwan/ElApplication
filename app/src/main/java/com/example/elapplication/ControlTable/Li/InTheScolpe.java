@@ -35,6 +35,7 @@ public class InTheScolpe extends AppCompatActivity {
 
         imageView=(ImageView)findViewById(R.id.temptele);
         imageView.bringToFront();
+
     }
 
     private final static float[] BUTTON_PRESSED = new float[] {

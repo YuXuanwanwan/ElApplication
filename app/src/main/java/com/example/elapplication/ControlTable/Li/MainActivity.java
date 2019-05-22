@@ -1,28 +1,21 @@
-package com.example.elapplication;
+package com.example.elapplication.ControlTable.Li;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.drm.DrmStore;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.drawable.BitmapDrawable;
-import android.os.HandlerThread;
-import android.provider.ContactsContract;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.PopupWindow;
+
+import com.example.elapplication.R;
 
 public class MainActivity extends AppCompatActivity {
     private CylinderImageView cylinderImageView;
@@ -87,16 +80,19 @@ public class MainActivity extends AppCompatActivity {
                 m78universe.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intenttoM78=new Intent(MainActivity.this,m78Activity.class);
+                        Intent intenttoM78=new Intent(MainActivity.this, m78Activity.class);
                         startActivity(intenttoM78);
                     }
                 });
-
-
-
             }
         });
-
+    btn_scole.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intenttoScolpe=new Intent(MainActivity.this,InTheScolpe.class);
+            startActivity(intenttoScolpe);
+        }
+    });
 
     }
 

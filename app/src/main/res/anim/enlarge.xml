@@ -12,7 +12,7 @@
         />
     <translate
         android:fromYDelta="0"
-        android:toYDelta="1600"
+        android:toYDelta="20%p"
         android:duration="0"
         />
 

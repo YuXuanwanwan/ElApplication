@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".m78Activity"></activity>
-        <activity android:name=".universe_StartActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ControlTable.Li.InTheScolpe"></activity>
+        <activity android:name=".ControlTable.Ge.TelescopeActivity" />
+        <activity android:name=".ControlTable.Li.m78Activity" />
+        <activity android:name=".ControlTable.Li.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

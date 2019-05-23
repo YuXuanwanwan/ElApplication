@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:text="gggggggggggggggggggg"
+        android:text="星球A 特点"
         android:textColor="#ffea00"
         android:textSize="30sp" />
 </RelativeLayout>
